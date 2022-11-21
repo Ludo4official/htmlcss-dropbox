@@ -1,5 +1,220 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+header {
+    height: 70px;
+    background-color: black;
+    border: dashed red 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-header {
+    background-color: yellow;
+    width: 30%;
+    height: 70px;
+    display: flex;
+}
+
+.left-content {
+    background-color: blue;
+    border: dashed solid red 1px;
+    height: 70px;
+    width: 25%;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content {
+    background-color: green;
+    border: dashed solid red 1px;
+    height: 70px;
+    width: 25%;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-color {
+    background-color: #b4d0e7;
+}
+
+.first-section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: red;
+    width: 1200px;
+    height: 500px;
+    border-style: dashed;
+}
+
+.small-container {
+    background-color: bisque;
+    width: 1200px;
+    height: 150px;
+    border-style: dashed;
+}
+
+.big-container {
+
+}
+
+.second-section {
+    width: 1000px;
+    min-height: 100px;
+    background-color: violet;
+    border-style: dashed;
+}
+
+.title {
+    height: 70px;
+    background-color: burlywood;
+    border-style: dashed;
+}
+
+.choice {
+    height: 70px;
+    background-color: blue;
+    border-style: dashed;
+}
+
+.column {
+    width: calc(95% / 3);
+    height: 700px;
+    border-style: dashed;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    min-height: 100px;
+    background-color: cornflowerblue;
+    border-style: dashed;
+}
+
+.upper-column {
+    height: 50px;
+    background-color: coral;
+    border-style: dashed;
+    text-align: center;
+}
+
+.row {
+    background-color: bisque;
+    height: 200px;
+    width: 1000px;
+    border-style: dashed;
+    margin-top: 20px;
+}
+
+.upper-row {
+    height: 50px;
+    background-color: cadetblue;
+    border-style: dashed;
+    text-align: center;
+}
+
+.section4 {
+    background-color: chartreuse;
+    height: 500px;
+    width: 1000px;
+    border-style: dashed;
+    margin-top: 120px;
+}
+
+.section5 {
+    background-color: crimson;
+    width: 1000px;
+    height: 900px;
+    border-style: dashed;
+    margin-top: 120px;
+}
+
+.title2 {
+    border-style: dashed;
+    background-color: azure;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: yellow;
+    border-style: dashed;
+    padding: 20px;
+}
+
+.section6 {
+    background-color: blanchedalmond;
+    width: 1000px;
+    height: 300px;
+    border-style: dashed;
+    margin-top: 80px;
+}
+
+.section7 {
+    background-color: black;
+    height: 500px;
+    display: flex;
+}
+
+.img-container {
+    width: calc(100% / 3);
+    height: 500px;
+    border: dashed red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-img-container {
+    width: 50%;
+    height: 50%;
+    border: dashed wheat;
+}
+
+.section8 {
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+.container8 {
+    width: 1000px;
+    height: 300px;
+    border: dashed red;
+    display: flex;
+    align-items: center;
+}
+
+.text8 {
+    width: 50%;
+    border: dashed red;
+    height: 100px;
+}
+
+.button8 {
+    width: 50%;
+    border: dashed black;
+    height: 100px;
+}
+
+
+
+
